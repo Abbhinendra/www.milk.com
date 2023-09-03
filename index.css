@@ -124,6 +124,17 @@ input{
 
 
 }
+
+footer{
+    text-align: center;
+    background-color: rgb(122, 120, 115);
+    padding: 16px;
+   
+   
+}
+.margin-container{
+    min-height: 66vh;
+}
 #center input:focus{
     border: 2px solid lightblue;
     cursor: pointer;
@@ -147,6 +158,9 @@ input{
     
     
     }
+     footer h2{
+        font-size:17px ;
+    }
   } 
   @media screen and (max-width: 332px) {
     
@@ -167,4 +181,7 @@ input{
       
       
       }
+        footer h2{
+        font-size:12px ;
+    }
     } 
