@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: wheat;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 1px;
+    height: 1px;
+    border-radius: 26px;
+    background-color: wheat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+padding: 36px;
+width: 100%;
+max-height: max-content;
+   
+}
+.box input{
+    padding: 8px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 6px;
+    margin: 10px 0;
+
+}
+#title{
+    width: 80vw;
+}
+#desc{
+    width: 80vw;
+}
+pre{
+    font-size: 18px;
+    font-weight: 800;
+}
+.box button{
+    padding: 8px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 6px;
+    background-color: rgb(202, 137, 202);
+
+}
+.box button:hover{
+    border: 2px solid lightblue;
+    cursor: pointer;
+}
+input:focus{
+    border: 2px solid lightblue;
+    cursor: pointer;
+}
+.tab{
+    width: 100%;
+    max-height: max-content;
+    margin: 26px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+table th{
+    width: 80vw;
+    font-size: 1.2rem;
+}
+
+
+tbody{
+    text-align: center;
+}
+tbody td{
+    width: 80vw;
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+tbody button{
+    margin: 10px 0;
+}
+tbody  #tr{
+    margin-left: 46%;
+}
+#tr button{
+
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: rgb(185, 134, 185);
+
+}
+#tr button:hover{
+    border: 2px solid lightblue;
+    cursor: pointer;
+}
+button{
+    border: none;
+}
+input{
+    border: none;
+}
+#center{
+    display: flex;
+    justify-content: center;
+}
+#center input{
+    padding: 8px;
+    width: 80vw;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    
+
+
+}
+#center input:focus{
+    border: 2px solid lightblue;
+    cursor: pointer;
+}
+@media screen and (max-width: 420px) {
+  
+    table th{
+        
+        font-size: 16px;
+        font-weight: 700;
+    }
+    tbody td{
+        
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #tr button{
+
+        font-size: 12px;
+        font-weight: 600;
+    
+    
+    }
+  } 
+  @media screen and (max-width: 332px) {
+    
+      table th{
+          
+          font-size: 12px;
+          font-weight: 600;
+      }
+      tbody td{
+          
+          font-size: 9px;
+          font-weight: 400;
+      }
+      #tr button{
+  
+          font-size: 10px;
+          font-weight: 400;
+      
+      
+      }
+    } 

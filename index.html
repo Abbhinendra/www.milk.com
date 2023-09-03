@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="box">
+           <pre>Title</pre>
+           <input type="text" id="title" maxlength="20">
+           <pre>Description</pre>
+           <input type="text" id="desc" maxlength="20">
+           <pre></pre>
+           <br>
+           <button id="btn">Add</button>     <button onclick="clearStorage()">Clear List</button>
+        </div>
+    </div>
+
+    <div id="center">
+        <input type="text" name="" id="search" placeholder="Search For your notes">
+    </div>
+           <div class="tab">
+
+            
+<table>
+
+    <tr>
+        <th>Sno</th>
+        <th>Title</th>
+        <th>Description</th> 
+        <th>Actions</th>
+    </tr>
+   <br>
+    <tbody id="tb">
+        <tr id="tr">
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td></td>
+        </tr>
+      
+      
+        
+       
+    </tbody>
+</table>
+           </div>
+           
+
+    
+</body>
+<script src="index.js"></script>
+</html>
